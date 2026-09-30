@@ -29,16 +29,44 @@
   },
   {
     "level": 3,
-    "title": "Nglegena (Bagian 2)",
+    "title": "Nglegena (Bagian 3)",
     "pairs": [
-      { "id": 9, "aksara": "ꦒ", "latin": "ga" },
-      { "id": 10, "aksara": "ꦧ", "latin": "ba" },
-      { "id": 11, "aksara": "ꦛ", "latin": "tha" },
-      { "id": 12, "aksara": "ꦔ", "latin": "nga" },
-      { "id": 13, "aksara": "ꦤꦶ", "latin": "ni" },
-      { "id": 14, "aksara": "ꦕꦸ", "latin": "cu" },
-      { "id": 15, "aksara": "ꦉ", "latin": "rê" },
-      { "id": 16, "aksara": "ꦊ", "latin": "lê" }
+      { "id": 17, "aksara": "ꦒ", "latin": "ga" },
+      { "id": 18, "aksara": "ꦧ", "latin": "ba" },
+      { "id": 19, "aksara": "ꦛ", "latin": "tha" },
+      { "id": 20, "aksara": "ꦔ", "latin": "nga" },
+      { "id": 21, "aksara": "ꦉ", "latin": "rê" },
+      { "id": 22, "aksara": "ꦊ", "latin": "lê" },
+      { "id": 23, "aksara": "ꦪ", "latin": "ya" },
+      { "id": 24, "aksara": "ꦫ", "latin": "ra" }
+    ]
+  },
+  {
+    "level": 4,
+    "title": "Aksara Swara",
+    "pairs": [
+      { "id": 25, "aksara": "ꦄ", "latin": "A" },
+      { "id": 26, "aksara": "ꦆ", "latin": "I" },
+      { "id": 27, "aksara": "ꦈ", "latin": "U" },
+      { "id": 28, "aksara": "ꦌ", "latin": "É" },
+      { "id": 29, "aksara": "ꦄꦼ", "latin": "Ê" },
+      { "id": 30, "aksara": "ꦎ", "latin": "O" },
+      { "id": 31, "aksara": "ꦍ", "latin": "AI" },
+      { "id": 32, "aksara": "ꦎꦴ", "latin": "AU" }
+    ]
+  },
+  {
+    "level": 5,
+    "title": "Sandhangan",
+    "pairs": [
+      { "id": 33, "aksara": "ꦲ", "latin": "ha" },
+      { "id": 34, "aksara": "ꦤꦶ", "latin": "ni" },
+      { "id": 35, "aksara": "ꦕꦸ", "latin": "cu" },
+      { "id": 36, "aksara": "ꦫꦺ", "latin": "ré" },
+      { "id": 37, "aksara": "ꦏꦼ", "latin": "kê" },
+      { "id": 38, "aksara": "ꦥꦺꦴ", "latin": "po" },
+      { "id": 39, "aksara": "ꦝꦻ", "latin": "dhai" },
+      { "id": 40, "aksara": "ꦗꦻꦴ", "latin": "jau" }
     ]
   }
 ]
