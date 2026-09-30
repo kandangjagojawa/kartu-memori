@@ -143,3 +143,17 @@ button {
     height: 100%;
     word-wrap: break-word; /* Mencegah string panjang keluar batas horizontal */
 }
+
+.footer {
+    margin-top: 40px;
+    padding-top: 15px;
+    border-top: 1px solid #e0e0e0; /* Garis pembatas halus */
+    font-size: 0.9rem;
+    color: #7f8c8d;
+    letter-spacing: 0.5px;
+}
+
+.footer strong {
+    color: #2c3e50; /* Penekanan warna pada kata KANDANGJAGO */
+    font-weight: 600;
+}
