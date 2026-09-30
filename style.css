@@ -119,8 +119,8 @@ button {
 
 .aksara-text {
     font-family: 'Ngayogyan', sans-serif;
-    /* Ukuran font aksara = 45% dari lebar kotaknya sendiri */
-    font-size: 45cqw; 
+    /* Ukuran font aksara = 55% dari lebar kotaknya sendiri */
+    font-size: 55cqw; 
     line-height: 1;
     text-align: center;
     display: flex;
@@ -131,8 +131,8 @@ button {
 }
 
 .latin-text {
-    /* Ukuran font latin = 28% dari lebar kotaknya sendiri */
-    font-size: 28cqw; 
+    /* Ukuran font latin = 50% dari lebar kotaknya sendiri */
+    font-size: 50cqw; 
     font-weight: 600;
     line-height: 1.2;
     text-align: center;
