@@ -4,7 +4,6 @@ const { useState, useEffect } = React;
 // KOMPONEN KARTU
 // -----------------------------------------
 const Card = ({ item, isFlipped, isMatched, onClick }) => {
-    // Kelas 'flipped' ditambahkan secara dinamis berdasarkan state
     const cardClass = `card ${isFlipped || isMatched ? 'flipped' : ''}`;
     
     return (
@@ -33,7 +32,6 @@ const App = () => {
     const [lockBoard, setLockBoard] = useState(false);
     const [isLoading, setIsLoading] = useState(true);
 
-    // 1. Ambil data JSON saat komponen dimuat
     useEffect(() => {
         fetch('data.json')
             .then(res => res.json())
@@ -47,7 +45,6 @@ const App = () => {
             });
     }, []);
 
-    // 2. Setup Level saat data level tersedia atau index berubah
     useEffect(() => {
         if (levelsData.length > 0) {
             setupLevel(currentLevelIndex);
@@ -63,7 +60,6 @@ const App = () => {
             deck.push({ uniqueId: `${i}L`, id: item.id, content: item.latin, type: 'latin', isFlipped: false, isMatched: false });
         });
 
-        // Fisher-Yates Shuffle
         for (let i = deck.length - 1; i > 0; i--) {
             const j = Math.floor(Math.random() * (i + 1));
             [deck[i], deck[j]] = [deck[j], deck[i]];
@@ -74,7 +70,6 @@ const App = () => {
         setLockBoard(false);
     };
 
-    // 3. Logika Klik Kartu
     const handleCardClick = (index) => {
         if (lockBoard) return;
         if (cards[index].isFlipped || cards[index].isMatched) return;
@@ -92,7 +87,6 @@ const App = () => {
         }
     };
 
-    // 4. Evaluasi Kecocokan
     const checkForMatch = (indices, currentCards) => {
         const [index1, index2] = indices;
         const isMatch = currentCards[index1].id === currentCards[index2].id;
@@ -118,7 +112,6 @@ const App = () => {
         }
     };
 
-    // 5. Cek Menang Level
     const checkWinCondition = (currentCards) => {
         const isLevelComplete = currentCards.every(card => card.isMatched);
         if (isLevelComplete) {
@@ -136,7 +129,6 @@ const App = () => {
         }
     };
 
-    // Render Status Pemuatan
     if (isLoading) return <div className="app-container">Memuat data...</div>;
     if (levelsData.length === 0) return <div className="app-container">Gagal memuat data.json</div>;
 
@@ -176,10 +168,14 @@ const App = () => {
                     />
                 ))}
             </div>
+
+            {/* Bagian Footer Kandangjago */}
+            <div className="footer">
+                <p>Dari <strong>KANDANGJAGO</strong> untuk Nusantara</p>
+            </div>
         </div>
     );
 };
 
-// Pasang aplikasi React ke dalam elemen HTML
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<App />);
