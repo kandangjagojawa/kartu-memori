@@ -1,6 +1,6 @@
 [
   {
-    "level": 1,
+    "level": 6,
     "title": "Nglegena (Bagian 1)",
     "pairs": [
       { "id": 1, "aksara": "ꦲ", "latin": "ha" },
@@ -67,6 +67,20 @@
       { "id": 38, "aksara": "ꦥꦺꦴ", "latin": "po" },
       { "id": 39, "aksara": "ꦝꦻ", "latin": "dhai" },
       { "id": 40, "aksara": "ꦗꦻꦴ", "latin": "jau" }
+    ]
+  },
+  {
+    "level": 1,
+    "title": "Pasangan",
+    "pairs": [
+      { "id": 41, "aksara": "꧀ꦲ", "latin": "ha" },
+      { "id": 42, "aksara": "꧀ꦤ", "latin": "na" },
+      { "id": 43, "aksara": "꧀ꦕ", "latin": "ca" },
+      { "id": 44, "aksara": "꧀ꦫ", "latin": "ra" },
+      { "id": 45, "aksara": "꧀ꦏ", "latin": "ka" },
+      { "id": 46, "aksara": "꧀ꦢ", "latin": "da" },
+      { "id": 47, "aksara": "꧀ꦠ", "latin": "ta" },
+      { "id": 48, "aksara": "꧀ꦱ", "latin": "sa" }
     ]
   }
 ]
