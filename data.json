@@ -26,5 +26,19 @@
       { "id": 15, "aksara": "ꦚ", "latin": "nya" },
       { "id": 16, "aksara": "ꦩ", "latin": "ma" }
     ]
+  },
+  {
+    "level": 3,
+    "title": "Nglegena (Bagian 2)",
+    "pairs": [
+      { "id": 9, "aksara": "ꦒ", "latin": "ga" },
+      { "id": 10, "aksara": "ꦧ", "latin": "ba" },
+      { "id": 11, "aksara": "ꦛ", "latin": "tha" },
+      { "id": 12, "aksara": "ꦔ", "latin": "nga" },
+      { "id": 13, "aksara": "ꦤꦶ", "latin": "ni" },
+      { "id": 14, "aksara": "ꦕꦸ", "latin": "cu" },
+      { "id": 15, "aksara": "ꦉ", "latin": "rê" },
+      { "id": 16, "aksara": "ꦊ", "latin": "lê" }
+    ]
   }
 ]
