@@ -1,0 +1,30 @@
+[
+  {
+    "level": 1,
+    "title": "Nglegena (Bagian 1)",
+    "pairs": [
+      { "id": 1, "aksara": "ꦲ", "latin": "ha" },
+      { "id": 2, "aksara": "ꦤ", "latin": "na" },
+      { "id": 3, "aksara": "ꦕ", "latin": "ca" },
+      { "id": 4, "aksara": "ꦫ", "latin": "ra" },
+      { "id": 5, "aksara": "ꦏ", "latin": "ka" },
+      { "id": 6, "aksara": "ꦢ", "latin": "da" },
+      { "id": 7, "aksara": "ꦠ", "latin": "ta" },
+      { "id": 8, "aksara": "ꦱ", "latin": "sa" }
+    ]
+  },
+  {
+    "level": 2,
+    "title": "Nglegena (Bagian 2)",
+    "pairs": [
+      { "id": 9, "aksara": "ꦮ", "latin": "wa" },
+      { "id": 10, "aksara": "ꦭ", "latin": "la" },
+      { "id": 11, "aksara": "ꦥ", "latin": "pa" },
+      { "id": 12, "aksara": "ꦝ", "latin": "dha" },
+      { "id": 13, "aksara": "ꦗ", "latin": "ja" },
+      { "id": 14, "aksara": "ꦪ", "latin": "ya" },
+      { "id": 15, "aksara": "ꦚ", "latin": "nya" },
+      { "id": 16, "aksara": "ꦩ", "latin": "ma" }
+    ]
+  }
+]
